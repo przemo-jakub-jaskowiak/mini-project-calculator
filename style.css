@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;
+}
+
+.container{
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 500px;
+    
+    background-image: linear-gradient(60deg, #0CF04C, #43A35E, yellow, #43A35E ,#0CF04C);
+    padding: 50px 30px 30px;
+    border-radius: 35px;
+    box-shadow: 20px 20px 80px black, 10px 10px 50px black,5px 5px 25px black,0px 0px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bigC{
+    background-color: #EB60DA;   
+}
+
+.result{
+   background-color: #EB7C6C;
+   width: 250px;
+   
+}
+
+.calc-btn{
+
+box-shadow: 2px 2px 8px black, 1px 1px 5px black;
+    padding: 20px 20px;
+    margin: 15px 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div.display{
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 4px solid black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.55), 1px 1px 4px rgba(0, 0, 0, 0.3);
+    line-height: 100px
+}
+
+.btn-add-sub{
+    width: 90px;
+    background-color: #8854EB;
+}
+
+.btn-num{
+    background-color: #43A376;
+    color: honeydew;
+}
+
+.btn-syg{
+    background-color: #EBE478;
+    font-size: 18px;
+}
